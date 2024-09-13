@@ -1,10 +1,13 @@
 from plagiarismchecker.algorithm import ConsineSim
 from apiclient.discovery import build
 
+#done# searchEngine_API = 'AIzaSyCAeR7_6TTKzoJmSwmOuHZvKcVg_lhqvCc'
+# searchEngine_API = 'AIzaSyAQYLRBBeDQNxADPQtUnApntz78-urWEZI'
 # searchEngine_API = 'AIzaSyAoEYif8sqEYvj1P6vYLw6CGMrQbDMmaq8'
 # searchEngine_API = 'AIzaSyCUYy9AtdMUddiNA0gOcsGPQcE372ytyCw'
-# searchEngine_API = 'AIzaSyAQYLRBBeDQNxADPQtUnApntz78-urWEZI'
-searchEngine_API = 'AIzaSyCAeR7_6TTKzoJmSwmOuHZvKcVg_lhqvCc'
+#searchEngine_API = 'AIzaSyDaE3qR1liEmGdLn0aONTIo3Yl0FxmqVKQ'
+searchEngine_API = 'AIzaSyD4u0VS7diYHNeO0eCUc2Q7xe5ML54Wybg'
+
 searchEngine_Id = '758ad3e78879f0e08'
 
 def searchWeb(text, output, c):
